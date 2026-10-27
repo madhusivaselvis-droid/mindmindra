@@ -1,0 +1,40 @@
+# Environments & Virtual Environments
+.venv/
+backend/.venv/
+venv/
+ENV/
+env/
+
+# Python cache & test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+backend/.pytest_cache/
+*.sqlite3
+*.db
+backend/mindner.db
+
+# Node & Frontend build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+tsconfig.tsbuildinfo
+frontend/tsconfig.tsbuildinfo
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Secrets & local env
+.env
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
